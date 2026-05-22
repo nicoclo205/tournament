@@ -3,6 +3,3 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Agent folders to exclude
-groups/Nico_agent/
-groups/Nico_agent_v2/
