@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Testing
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Linting / typing
+.ruff_cache/
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.code-review-graph/
+versus/
+
+.claude/
+CLAUDE.md
+
+Sustentacion_IA.pptx
+informe_maoagent.pdf
+informe_maoagent.tex
