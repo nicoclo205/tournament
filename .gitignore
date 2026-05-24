@@ -36,3 +36,6 @@ CLAUDE.md
 Sustentacion_IA.pptx
 informe_maoagent.pdf
 informe_maoagent.tex
+
+*.pptx
+*.pdf
