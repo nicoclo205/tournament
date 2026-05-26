@@ -1,8 +1,13 @@
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
+# Ignore everything
+*
 
-# Agent folders to exclude
-groups/Nico_agent/
-groups/Nico_agent_v2/
+# Except these
+!connect4/
+!connect4/**
+!groups/
+!groups/**
+!main.py
+!tournament.py
+!.gitignore
+!agente_perdedor.py
+!README.md
