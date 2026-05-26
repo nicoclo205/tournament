@@ -6,10 +6,10 @@ from connect4.policy import Policy
 
 class NewPolicy(Policy):
 
-    def __init__(self) -> None:
+    def __init__(self, N_iterations=200, exploration_constant=1.41) -> None:
         self.rng: np.random.Generator = np.random.default_rng()
-        self.exploration_constant: float = 1.41
-        self.N_iterations: int = 200
+        self.N_iterations = N_iterations
+        self.exploration_constant = exploration_constant
 
     def mount(self) -> None:
         """
