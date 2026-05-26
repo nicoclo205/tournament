@@ -1,9 +1,13 @@
 # Ignore everything
 *
-
-# Except these
 !connect4/
 !connect4/**
+
+
+/connect4/__pycache__/*
+/connect4/__pycache__/
+
+# Except thes
 !groups/
 !groups/**
 !main.py
